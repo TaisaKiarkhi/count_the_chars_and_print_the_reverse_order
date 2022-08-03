@@ -22,7 +22,7 @@ int main() {
 
 	//this loop is indefenite because unsigned int is always greater or equal to 0
 	//so the loop will continue forever. You should write a code to terminate it
-	// or you can overwrite the code and use int instead of unsigned int 
+	// or you can overwrite the code and use int instead of unsigned int. 
 
 	for (size_t i{count_chars-1}; i >=0; --i) {
 		cout << c_style_string[i];
